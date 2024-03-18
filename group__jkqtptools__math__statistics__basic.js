@@ -30,6 +30,7 @@ var group__jkqtptools__math__statistics__basic =
     [ "jkqtpstatMAD", "group__jkqtptools__math__statistics__basic.html#ga72306d0654d0c4ec47c7f63944444a7c", null ],
     [ "jkqtpstatMaximum", "group__jkqtptools__math__statistics__basic.html#ga88fd1f99cd6703268c3065d69ba6b65d", null ],
     [ "jkqtpstatMedian", "group__jkqtptools__math__statistics__basic.html#ga5aa5e5dc787e5c891ae7d1eccd697003", null ],
+    [ "jkqtpstatMedianAndPartialSort", "group__jkqtptools__math__statistics__basic.html#ga6ee7b42f5dfe8879efe950d15c8e7c40", null ],
     [ "jkqtpstatMedianOfSortedVector", "group__jkqtptools__math__statistics__basic.html#ga3e178db9dd8b3707b95c5787fed644ee", null ],
     [ "jkqtpstatMinimum", "group__jkqtptools__math__statistics__basic.html#ga964efee196e2d587b30037421cdda22a", null ],
     [ "jkqtpstatMinMax", "group__jkqtptools__math__statistics__basic.html#ga88686b7d786896c704659dc8fe4c1e7f", null ],
