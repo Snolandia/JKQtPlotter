@@ -872,51 +872,54 @@ $(document).ready(function(){initNavTree('jkqtpmathtools_8h_source.html',''); in
 <div class="line"><a id="l00665" name="l00665"></a><span class="lineno">  665</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
 <div class="foldopen" id="foldopen00666" data-start="{" data-end="}">
 <div class="line"><a id="l00666" name="l00666"></a><span class="lineno"><a class="line" href="group__jkqtptools__math__basic.html#ga2ba807321e3c6c55e4917089af18d1cf">  666</a></span><span class="keyword">inline</span> T <a class="code hl_function" href="group__jkqtptools__math__basic.html#ga2ba807321e3c6c55e4917089af18d1cf">jkqtp_reversed</a>(<span class="keyword">const</span> T&amp; l) {</div>
-<div class="line"><a id="l00667" name="l00667"></a><span class="lineno">  667</span>    <span class="keywordflow">return</span> T(l.rbegin(), l.rend());</div>
-<div class="line"><a id="l00668" name="l00668"></a><span class="lineno">  668</span>}</div>
+<div class="line"><a id="l00667" name="l00667"></a><span class="lineno">  667</span>    T reversed_l;</div>
+<div class="line"><a id="l00668" name="l00668"></a><span class="lineno">  668</span>    reversed_l.reserve(l.size());</div>
+<div class="line"><a id="l00669" name="l00669"></a><span class="lineno">  669</span>    std::reverse_copy(l.begin(), l.end(), std::back_inserter(reversed_l));</div>
+<div class="line"><a id="l00670" name="l00670"></a><span class="lineno">  670</span>    <span class="keywordflow">return</span> reversed_l;</div>
+<div class="line"><a id="l00671" name="l00671"></a><span class="lineno">  671</span>}</div>
 </div>
-<div class="line"><a id="l00669" name="l00669"></a><span class="lineno">  669</span><span class="comment"></span> </div>
-<div class="line"><a id="l00670" name="l00670"></a><span class="lineno">  670</span><span class="comment">/*! \brief can be used to build a hash-values from several hash-values</span></div>
-<div class="line"><a id="l00671" name="l00671"></a><span class="lineno">  671</span><span class="comment">    \ingroup jkqtptools_math_basic</span></div>
 <div class="line"><a id="l00672" name="l00672"></a><span class="lineno">  672</span><span class="comment"></span> </div>
-<div class="line"><a id="l00673" name="l00673"></a><span class="lineno">  673</span><span class="comment">    \code</span></div>
-<div class="line"><a id="l00674" name="l00674"></a><span class="lineno">  674</span><span class="comment">        std::size_t seed=0;</span></div>
-<div class="line"><a id="l00675" name="l00675"></a><span class="lineno">  675</span><span class="comment">        jkqtp_hash_combine(seed, valA);</span></div>
-<div class="line"><a id="l00676" name="l00676"></a><span class="lineno">  676</span><span class="comment">        jkqtp_hash_combine(seed, valB);</span></div>
-<div class="line"><a id="l00677" name="l00677"></a><span class="lineno">  677</span><span class="comment">        //...</span></div>
-<div class="line"><a id="l00678" name="l00678"></a><span class="lineno">  678</span><span class="comment">        // finally seed contains the combined hash</span></div>
-<div class="line"><a id="l00679" name="l00679"></a><span class="lineno">  679</span><span class="comment">    \endcode</span></div>
-<div class="line"><a id="l00680" name="l00680"></a><span class="lineno">  680</span><span class="comment"></span> </div>
-<div class="line"><a id="l00681" name="l00681"></a><span class="lineno">  681</span><span class="comment">*/</span></div>
-<div class="line"><a id="l00682" name="l00682"></a><span class="lineno">  682</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
-<div class="foldopen" id="foldopen00683" data-start="{" data-end="}">
-<div class="line"><a id="l00683" name="l00683"></a><span class="lineno"><a class="line" href="group__jkqtptools__math__basic.html#ga84503f9b68f7cd5bd2b9b7ed88c2e03e">  683</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="group__jkqtptools__math__basic.html#ga84503f9b68f7cd5bd2b9b7ed88c2e03e">jkqtp_hash_combine</a>(std::size_t&amp; seed, <span class="keyword">const</span> T&amp; v)</div>
-<div class="line"><a id="l00684" name="l00684"></a><span class="lineno">  684</span>{</div>
-<div class="line"><a id="l00685" name="l00685"></a><span class="lineno">  685</span>    <span class="keyword">const</span> <span class="keyword">auto</span> hsh=<a class="code hl_function" href="group__jkqtpplottersupprt.html#gaf7f4d2cbc77fa6bb5446221d595c2183">::qHash</a>(v,0);</div>
-<div class="line"><a id="l00686" name="l00686"></a><span class="lineno">  686</span>    seed ^= hsh + 0x9e3779b9 + (seed&lt;&lt;6) + (seed&gt;&gt;2);</div>
-<div class="line"><a id="l00687" name="l00687"></a><span class="lineno">  687</span>}</div>
+<div class="line"><a id="l00673" name="l00673"></a><span class="lineno">  673</span><span class="comment">/*! \brief can be used to build a hash-values from several hash-values</span></div>
+<div class="line"><a id="l00674" name="l00674"></a><span class="lineno">  674</span><span class="comment">    \ingroup jkqtptools_math_basic</span></div>
+<div class="line"><a id="l00675" name="l00675"></a><span class="lineno">  675</span><span class="comment"></span> </div>
+<div class="line"><a id="l00676" name="l00676"></a><span class="lineno">  676</span><span class="comment">    \code</span></div>
+<div class="line"><a id="l00677" name="l00677"></a><span class="lineno">  677</span><span class="comment">        std::size_t seed=0;</span></div>
+<div class="line"><a id="l00678" name="l00678"></a><span class="lineno">  678</span><span class="comment">        jkqtp_hash_combine(seed, valA);</span></div>
+<div class="line"><a id="l00679" name="l00679"></a><span class="lineno">  679</span><span class="comment">        jkqtp_hash_combine(seed, valB);</span></div>
+<div class="line"><a id="l00680" name="l00680"></a><span class="lineno">  680</span><span class="comment">        //...</span></div>
+<div class="line"><a id="l00681" name="l00681"></a><span class="lineno">  681</span><span class="comment">        // finally seed contains the combined hash</span></div>
+<div class="line"><a id="l00682" name="l00682"></a><span class="lineno">  682</span><span class="comment">    \endcode</span></div>
+<div class="line"><a id="l00683" name="l00683"></a><span class="lineno">  683</span><span class="comment"></span> </div>
+<div class="line"><a id="l00684" name="l00684"></a><span class="lineno">  684</span><span class="comment">*/</span></div>
+<div class="line"><a id="l00685" name="l00685"></a><span class="lineno">  685</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
+<div class="foldopen" id="foldopen00686" data-start="{" data-end="}">
+<div class="line"><a id="l00686" name="l00686"></a><span class="lineno"><a class="line" href="group__jkqtptools__math__basic.html#ga84503f9b68f7cd5bd2b9b7ed88c2e03e">  686</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="group__jkqtptools__math__basic.html#ga84503f9b68f7cd5bd2b9b7ed88c2e03e">jkqtp_hash_combine</a>(std::size_t&amp; seed, <span class="keyword">const</span> T&amp; v)</div>
+<div class="line"><a id="l00687" name="l00687"></a><span class="lineno">  687</span>{</div>
+<div class="line"><a id="l00688" name="l00688"></a><span class="lineno">  688</span>    <span class="keyword">const</span> <span class="keyword">auto</span> hsh=<a class="code hl_function" href="group__jkqtpplottersupprt.html#gaf7f4d2cbc77fa6bb5446221d595c2183">::qHash</a>(v,0);</div>
+<div class="line"><a id="l00689" name="l00689"></a><span class="lineno">  689</span>    seed ^= hsh + 0x9e3779b9 + (seed&lt;&lt;6) + (seed&gt;&gt;2);</div>
+<div class="line"><a id="l00690" name="l00690"></a><span class="lineno">  690</span>}</div>
 </div>
-<div class="line"><a id="l00688" name="l00688"></a><span class="lineno">  688</span><span class="comment"></span> </div>
-<div class="line"><a id="l00689" name="l00689"></a><span class="lineno">  689</span><span class="comment">/*! \brief can be used to build a hash-values from several hash-values</span></div>
-<div class="line"><a id="l00690" name="l00690"></a><span class="lineno">  690</span><span class="comment">    \ingroup jkqtptools_math_basic</span></div>
 <div class="line"><a id="l00691" name="l00691"></a><span class="lineno">  691</span><span class="comment"></span> </div>
-<div class="line"><a id="l00692" name="l00692"></a><span class="lineno">  692</span><span class="comment">    \code</span></div>
-<div class="line"><a id="l00693" name="l00693"></a><span class="lineno">  693</span><span class="comment">        std::size_t seed=0;</span></div>
-<div class="line"><a id="l00694" name="l00694"></a><span class="lineno">  694</span><span class="comment">        jkqtp_combine_hash(seed, qHash(valA));</span></div>
-<div class="line"><a id="l00695" name="l00695"></a><span class="lineno">  695</span><span class="comment">        jkqtp_combine_hash(seed, qHash(valB));</span></div>
-<div class="line"><a id="l00696" name="l00696"></a><span class="lineno">  696</span><span class="comment">        //...</span></div>
-<div class="line"><a id="l00697" name="l00697"></a><span class="lineno">  697</span><span class="comment">        // finally seed contains the combined hash</span></div>
-<div class="line"><a id="l00698" name="l00698"></a><span class="lineno">  698</span><span class="comment">    \endcode</span></div>
-<div class="line"><a id="l00699" name="l00699"></a><span class="lineno">  699</span><span class="comment"></span> </div>
-<div class="line"><a id="l00700" name="l00700"></a><span class="lineno">  700</span><span class="comment">*/</span></div>
-<div class="foldopen" id="foldopen00701" data-start="{" data-end="}">
-<div class="line"><a id="l00701" name="l00701"></a><span class="lineno"><a class="line" href="group__jkqtptools__math__basic.html#ga9295f8ae4e8323dae175761e8cdfa117">  701</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="group__jkqtptools__math__basic.html#ga9295f8ae4e8323dae175761e8cdfa117">jkqtp_combine_hash</a>(std::size_t&amp; seed,  std::size_t hsh)</div>
-<div class="line"><a id="l00702" name="l00702"></a><span class="lineno">  702</span>{</div>
-<div class="line"><a id="l00703" name="l00703"></a><span class="lineno">  703</span>    seed ^= hsh + 0x9e3779b9 + (seed&lt;&lt;6) + (seed&gt;&gt;2);</div>
-<div class="line"><a id="l00704" name="l00704"></a><span class="lineno">  704</span>}</div>
+<div class="line"><a id="l00692" name="l00692"></a><span class="lineno">  692</span><span class="comment">/*! \brief can be used to build a hash-values from several hash-values</span></div>
+<div class="line"><a id="l00693" name="l00693"></a><span class="lineno">  693</span><span class="comment">    \ingroup jkqtptools_math_basic</span></div>
+<div class="line"><a id="l00694" name="l00694"></a><span class="lineno">  694</span><span class="comment"></span> </div>
+<div class="line"><a id="l00695" name="l00695"></a><span class="lineno">  695</span><span class="comment">    \code</span></div>
+<div class="line"><a id="l00696" name="l00696"></a><span class="lineno">  696</span><span class="comment">        std::size_t seed=0;</span></div>
+<div class="line"><a id="l00697" name="l00697"></a><span class="lineno">  697</span><span class="comment">        jkqtp_combine_hash(seed, qHash(valA));</span></div>
+<div class="line"><a id="l00698" name="l00698"></a><span class="lineno">  698</span><span class="comment">        jkqtp_combine_hash(seed, qHash(valB));</span></div>
+<div class="line"><a id="l00699" name="l00699"></a><span class="lineno">  699</span><span class="comment">        //...</span></div>
+<div class="line"><a id="l00700" name="l00700"></a><span class="lineno">  700</span><span class="comment">        // finally seed contains the combined hash</span></div>
+<div class="line"><a id="l00701" name="l00701"></a><span class="lineno">  701</span><span class="comment">    \endcode</span></div>
+<div class="line"><a id="l00702" name="l00702"></a><span class="lineno">  702</span><span class="comment"></span> </div>
+<div class="line"><a id="l00703" name="l00703"></a><span class="lineno">  703</span><span class="comment">*/</span></div>
+<div class="foldopen" id="foldopen00704" data-start="{" data-end="}">
+<div class="line"><a id="l00704" name="l00704"></a><span class="lineno"><a class="line" href="group__jkqtptools__math__basic.html#ga9295f8ae4e8323dae175761e8cdfa117">  704</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="group__jkqtptools__math__basic.html#ga9295f8ae4e8323dae175761e8cdfa117">jkqtp_combine_hash</a>(std::size_t&amp; seed,  std::size_t hsh)</div>
+<div class="line"><a id="l00705" name="l00705"></a><span class="lineno">  705</span>{</div>
+<div class="line"><a id="l00706" name="l00706"></a><span class="lineno">  706</span>    seed ^= hsh + 0x9e3779b9 + (seed&lt;&lt;6) + (seed&gt;&gt;2);</div>
+<div class="line"><a id="l00707" name="l00707"></a><span class="lineno">  707</span>}</div>
 </div>
-<div class="line"><a id="l00705" name="l00705"></a><span class="lineno">  705</span> </div>
-<div class="line"><a id="l00706" name="l00706"></a><span class="lineno">  706</span><span class="preprocessor">#endif </span><span class="comment">// jkqtpmathtools_H_INCLUDED</span></div>
+<div class="line"><a id="l00708" name="l00708"></a><span class="lineno">  708</span> </div>
+<div class="line"><a id="l00709" name="l00709"></a><span class="lineno">  709</span><span class="preprocessor">#endif </span><span class="comment">// jkqtpmathtools_H_INCLUDED</span></div>
 <div class="ttc" id="agroup__jkqtpplottersupprt_html_gaf7f4d2cbc77fa6bb5446221d595c2183"><div class="ttname"><a href="group__jkqtpplottersupprt.html#gaf7f4d2cbc77fa6bb5446221d595c2183">qHash</a></div><div class="ttdeci">size_t qHash(const JKQTBasePlotter::textSizeKey &amp;data, size_t)</div><div class="ttdoc">qHash()-specialization</div><div class="ttdef"><b>Definition</b> jkqtpbaseplotter.h:2820</div></div>
 <div class="ttc" id="agroup__jkqtptools__libfacilities_html_ga7a5770c49e13362630ad3ab974ba5af1"><div class="ttname"><a href="group__jkqtptools__libfacilities.html#ga7a5770c49e13362630ad3ab974ba5af1">JKQTCOMMON_LIB_EXPORT</a></div><div class="ttdeci">#define JKQTCOMMON_LIB_EXPORT</div><div class="ttdef"><b>Definition</b> jkqtcommon_imexport.h:87</div></div>
 <div class="ttc" id="agroup__jkqtptools__math__basic_html_ga0629d281d3475efc82eff234f61e0ca2"><div class="ttname"><a href="group__jkqtptools__math__basic.html#ga0629d281d3475efc82eff234f61e0ca2">jkqtp_y1</a></div><div class="ttdeci">double jkqtp_y1(double x)</div><div class="ttdoc">y1() function (without compiler issues)</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:453</div></div>
@@ -935,9 +938,9 @@ $(document).ready(function(){initNavTree('jkqtpmathtools_8h_source.html',''); in
 <div class="ttc" id="agroup__jkqtptools__math__basic_html_ga59d62917317a272d744613fe5294677d"><div class="ttname"><a href="group__jkqtptools__math__basic.html#ga59d62917317a272d744613fe5294677d">jkqtp_distance</a></div><div class="ttdeci">double jkqtp_distance(const QPointF &amp;p1, const QPointF &amp;p2)</div><div class="ttdoc">calculate the distance between two QPointF points</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:480</div></div>
 <div class="ttc" id="agroup__jkqtptools__math__basic_html_ga6c6600f3d0204c8aa59653be8974de42"><div class="ttname"><a href="group__jkqtptools__math__basic.html#ga6c6600f3d0204c8aa59653be8974de42">JKQTP_DOUBLE_EPSILON</a></div><div class="ttdeci">#define JKQTP_DOUBLE_EPSILON</div><div class="ttdoc">double-value epsilon</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:92</div></div>
 <div class="ttc" id="agroup__jkqtptools__math__basic_html_ga7d3fc545bf6193a1ad76bb2870327843"><div class="ttname"><a href="group__jkqtptools__math__basic.html#ga7d3fc545bf6193a1ad76bb2870327843">jkqtp_ceilTo</a></div><div class="ttdeci">T jkqtp_ceilTo(const double &amp;v)</div><div class="ttdoc">round a double v using ceil() and convert it to a specified type T (static_cast!)</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:181</div></div>
-<div class="ttc" id="agroup__jkqtptools__math__basic_html_ga84503f9b68f7cd5bd2b9b7ed88c2e03e"><div class="ttname"><a href="group__jkqtptools__math__basic.html#ga84503f9b68f7cd5bd2b9b7ed88c2e03e">jkqtp_hash_combine</a></div><div class="ttdeci">void jkqtp_hash_combine(std::size_t &amp;seed, const T &amp;v)</div><div class="ttdoc">can be used to build a hash-values from several hash-values</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:683</div></div>
+<div class="ttc" id="agroup__jkqtptools__math__basic_html_ga84503f9b68f7cd5bd2b9b7ed88c2e03e"><div class="ttname"><a href="group__jkqtptools__math__basic.html#ga84503f9b68f7cd5bd2b9b7ed88c2e03e">jkqtp_hash_combine</a></div><div class="ttdeci">void jkqtp_hash_combine(std::size_t &amp;seed, const T &amp;v)</div><div class="ttdoc">can be used to build a hash-values from several hash-values</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:686</div></div>
 <div class="ttc" id="agroup__jkqtptools__math__basic_html_ga8d817b958d5804bf099d3bf719cc3fb4"><div class="ttname"><a href="group__jkqtptools__math__basic.html#ga8d817b958d5804bf099d3bf719cc3fb4">jkqtp_factorial</a></div><div class="ttdeci">T jkqtp_factorial(T n)</div><div class="ttdoc">Calculates a factorial .</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:599</div></div>
-<div class="ttc" id="agroup__jkqtptools__math__basic_html_ga9295f8ae4e8323dae175761e8cdfa117"><div class="ttname"><a href="group__jkqtptools__math__basic.html#ga9295f8ae4e8323dae175761e8cdfa117">jkqtp_combine_hash</a></div><div class="ttdeci">void jkqtp_combine_hash(std::size_t &amp;seed, std::size_t hsh)</div><div class="ttdoc">can be used to build a hash-values from several hash-values</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:701</div></div>
+<div class="ttc" id="agroup__jkqtptools__math__basic_html_ga9295f8ae4e8323dae175761e8cdfa117"><div class="ttname"><a href="group__jkqtptools__math__basic.html#ga9295f8ae4e8323dae175761e8cdfa117">jkqtp_combine_hash</a></div><div class="ttdeci">void jkqtp_combine_hash(std::size_t &amp;seed, std::size_t hsh)</div><div class="ttdoc">can be used to build a hash-values from several hash-values</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:704</div></div>
 <div class="ttc" id="agroup__jkqtptools__math__basic_html_ga966c1a713f60bd026db4f35f7007eb7e"><div class="ttname"><a href="group__jkqtptools__math__basic.html#ga966c1a713f60bd026db4f35f7007eb7e">jkqtp_todouble</a></div><div class="ttdeci">constexpr double jkqtp_todouble(const T &amp;d)</div><div class="ttdoc">converts a boolean to a double, is used to convert boolean to double by JKQTPDatastore</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:113</div></div>
 <div class="ttc" id="agroup__jkqtptools__math__basic_html_gaa371ef239cb8bbe2a043a455c2893c8b"><div class="ttname"><a href="group__jkqtptools__math__basic.html#gaa371ef239cb8bbe2a043a455c2893c8b">jkqtp_estimateFraction</a></div><div class="ttdeci">JKQTCOMMON_LIB_EXPORT void jkqtp_estimateFraction(double input, int &amp;sign, uint64_t &amp;intpart, uint64_t &amp;num, uint64_t &amp;denom, unsigned int precision=9)</div><div class="ttdoc">calculates numeratur integer part intpart , num and denominator denom of a fraction,...</div></div>
 <div class="ttc" id="agroup__jkqtptools__math__basic_html_gaa3d7fcf683d8233f6523f0b1bc415147"><div class="ttname"><a href="group__jkqtptools__math__basic.html#gaa3d7fcf683d8233f6523f0b1bc415147">jkqtp_j0</a></div><div class="ttdeci">double jkqtp_j0(double x)</div><div class="ttdoc">j0() function (without compiler issues)</div><div class="ttdef"><b>Definition</b> jkqtpmathtools.h:400</div></div>
@@ -973,7 +976,7 @@ $(document).ready(function(){initNavTree('jkqtpmathtools_8h_source.html',''); in
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_9c1c7b82103a20ec9a416a3dfc619ab1.html">jkqtcommon</a></li><li class="navelem"><b>jkqtpmathtools.h</b></li>
-    <li class="footer">Generated on Fri Mar 15 2024 10:38:43 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Mar 18 2024 09:44:47 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>
