@@ -141,9 +141,13 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga5a942e00c033a0125cbd6991be062e08"><td class="mdescLeft">&#160;</td><td class="mdescRight">evaluates the Kernel Density Estimator (KDE) at a given position  <br /></td></tr>
 <tr class="separator:ga5a942e00c033a0125cbd6991be062e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabea5faa220697a680179e0460ab6a46d" id="r_gabea5faa220697a680179e0460ab6a46d"><td class="memTemplParams" colspan="2">template&lt;class InputItX , class InputItY , class OutputIt &gt; </td></tr>
-<tr class="memitem:gabea5faa220697a680179e0460ab6a46d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtptools__math__statistics__2dkde.html#gabea5faa220697a680179e0460ab6a46d">jkqtpstatKDE2D</a> (InputItX firstX, InputItX lastX, InputItY firstY, InputItY lastY, OutputIt histogramImgOut, double xmin, double xmax, double ymin, double ymax, size_t xbins, size_t ybins, const std::function&lt; double(double, double)&gt; &amp;kernel=std::function&lt; double(double, double)&gt;(&amp;<a class="el" href="group__jkqtptools__math__statistics__2dkde__kernels.html#ga23d693ecd2ee031496fc14753448f0e0">jkqtpstatKernel2DGaussian</a>), double bandwidthX=1.0, double bandwidthY=1.0)</td></tr>
+<tr class="memitem:gabea5faa220697a680179e0460ab6a46d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtptools__math__statistics__2dkde.html#gabea5faa220697a680179e0460ab6a46d">jkqtpstatKDE2D</a> (InputItX firstX, InputItX lastX, InputItY firstY, InputItY lastY, OutputIt histogramImgOut, double xmin, double xmax, double ymin, double ymax, size_t xbins, size_t ybins, const std::function&lt; double(double, double)&gt; &amp;kernel=std::function&lt; double(double, double)&gt;(&amp;<a class="el" href="group__jkqtptools__math__statistics__2dkde__kernels.html#gaba5d115fd8be2d295419818be380b277">jkqtpstatKernel2DGaussian</a>), double bandwidthX=1.0, double bandwidthY=1.0)</td></tr>
 <tr class="memdesc:gabea5faa220697a680179e0460ab6a46d"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate an autoranged 2-dimensional Kernel Density Estimation (KDE) from the given data range <em>firstX</em> / <em>firstY</em> ... <em>lastY</em> / <em>lastY</em>  <br /></td></tr>
 <tr class="separator:gabea5faa220697a680179e0460ab6a46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6180cc1b0cb92cbe75e2594b657cff24" id="r_ga6180cc1b0cb92cbe75e2594b657cff24"><td class="memTemplParams" colspan="2">template&lt;class InputItX , class InputItY , class FF &gt; </td></tr>
+<tr class="memitem:ga6180cc1b0cb92cbe75e2594b657cff24"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__jkqtptools__math__statistics__2dkde.html#ga6180cc1b0cb92cbe75e2594b657cff24">jkqtpstatStoreKernelSum2D</a> (FF &amp;&amp;fStore, InputItX firstX, InputItX lastX, InputItY firstY, InputItY lastY, const std::function&lt; double(double, double)&gt; &amp;kernel, double bandwidthX, double bandwidthY)</td></tr>
+<tr class="memdesc:ga6180cc1b0cb92cbe75e2594b657cff24"><td class="mdescLeft">&#160;</td><td class="mdescRight">stores a part-result of the Kernel Density Estimator (KDE) at a given position  <br /></td></tr>
+<tr class="separator:ga6180cc1b0cb92cbe75e2594b657cff24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -302,7 +306,7 @@ template&lt;class InputItX , class InputItY &gt; </div>
     <tr><td class="paramname">lastX</td><td>iterator pointing behind the last x-position item in the dataset to use <picture><source srcset="form_53_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_N $" src="form_53.png" width="26" height="16"/></picture> </td></tr>
     <tr><td class="paramname">firstY</td><td>iterator pointing to the first y-position item in the dataset to use <picture><source srcset="form_100_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ Y_1 $" src="form_100.png" width="16" height="16"/></picture> </td></tr>
     <tr><td class="paramname">lastY</td><td>iterator pointing behind the last y-position item in the dataset to use <picture><source srcset="form_105_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ Y_N $" src="form_105.png" width="23" height="16"/></picture> </td></tr>
-    <tr><td class="paramname">kernel</td><td>the kernel function to use (e.g. <a class="el" href="group__jkqtptools__math__statistics__1dkde__kernels.html#gacddebeb94f8449c98b0ed98160e65a24" title="a 1D Gaussian kernel function, e.g. for Kernel Density Estimation">jkqtpstatKernel1DGaussian()</a> ) </td></tr>
+    <tr><td class="paramname">kernel</td><td>the kernel function to use (e.g. <a class="el" href="group__jkqtptools__math__statistics__1dkde__kernels.html#gadc261fe2e23128426ab9903e26a02885" title="a 1D Gaussian kernel function, e.g. for Kernel Density Estimation">jkqtpstatKernel1DGaussian()</a> ) </td></tr>
     <tr><td class="paramname">bandwidthX</td><td>x-bandwidth used for the KDE </td></tr>
     <tr><td class="paramname">bandwidthY</td><td>y-bandwidth used for the KDE </td></tr>
   </table>
@@ -392,7 +396,7 @@ template&lt;class InputItX , class InputItY , class OutputIt &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::function&lt; double(double, double)&gt; &amp;&#160;</td>
-          <td class="paramname"><em>kernel</em> = <code>std::function&lt;double(double,double)&gt;(&amp;<a class="el" href="group__jkqtptools__math__statistics__2dkde__kernels.html#ga23d693ecd2ee031496fc14753448f0e0">jkqtpstatKernel2DGaussian</a>)</code>, </td>
+          <td class="paramname"><em>kernel</em> = <code>std::function&lt;double(double,double)&gt;(&amp;<a class="el" href="group__jkqtptools__math__statistics__2dkde__kernels.html#gaba5d115fd8be2d295419818be380b277">jkqtpstatKernel2DGaussian</a>)</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -441,7 +445,7 @@ template&lt;class InputItX , class InputItY , class OutputIt &gt; </div>
     <tr><td class="paramdir"></td><td class="paramname">ymax</td><td>position of the last histogram bin in y-direction </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">xbins</td><td>number of bins in x-direction (i.e. width of the output histogram <em>histogramImgOut</em> ) </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">ybins</td><td>number of bins in y-direction (i.e. height of the output histogram <em>histogramImgOut</em> ) </td></tr>
-    <tr><td class="paramdir"></td><td class="paramname">kernel</td><td>the kernel function to use (e.g. <a class="el" href="group__jkqtptools__math__statistics__2dkde__kernels.html#ga23d693ecd2ee031496fc14753448f0e0" title="a 2D Gaussian kernel function, e.g. for Kernel Density Estimation">jkqtpstatKernel2DGaussian()</a> ) </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">kernel</td><td>the kernel function to use (e.g. <a class="el" href="group__jkqtptools__math__statistics__2dkde__kernels.html#gaba5d115fd8be2d295419818be380b277" title="a 2D Gaussian kernel function, e.g. for Kernel Density Estimation">jkqtpstatKernel2DGaussian()</a> ) </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">bandwidthX</td><td>x-bandwidth used for the KDE </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">bandwidthY</td><td>y-bandwidth used for the KDE</td></tr>
   </table>
@@ -451,13 +455,113 @@ template&lt;class InputItX , class InputItY , class OutputIt &gt; </div>
 
 </div>
 </div>
+<a id="ga6180cc1b0cb92cbe75e2594b657cff24" name="ga6180cc1b0cb92cbe75e2594b657cff24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6180cc1b0cb92cbe75e2594b657cff24">&#9670;&#160;</a></span>jkqtpstatStoreKernelSum2D()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class InputItX , class InputItY , class FF &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int jkqtpstatStoreKernelSum2D </td>
+          <td>(</td>
+          <td class="paramtype">FF &amp;&amp;&#160;</td>
+          <td class="paramname"><em>fStore</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputItX&#160;</td>
+          <td class="paramname"><em>firstX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputItX&#160;</td>
+          <td class="paramname"><em>lastX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputItY&#160;</td>
+          <td class="paramname"><em>firstY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputItY&#160;</td>
+          <td class="paramname"><em>lastY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; double(double, double)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>kernel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>bandwidthX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>bandwidthY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>stores a part-result of the Kernel Density Estimator (KDE) at a given position </p>
+<p>Iterates over all datapoints in firstX..lastX and firstY..lastY, for each one determines whether the floating-point values are valid and the calls fStore, which is a functor that is supposed to iterate over the KDE 2D array and over calls sum up the KDE.</p>
+<p>This is internally used by <a class="el" href="group__jkqtptools__math__statistics__2dkde.html#gabea5faa220697a680179e0460ab6a46d" title="calculate an autoranged 2-dimensional Kernel Density Estimation (KDE) from the given data range first...">jkqtpstatKDE2D()</a>. The construction is not as straight-forward, as iterating over all positions in the 2D-KJDE and the calling <a class="el" href="group__jkqtptools__math__statistics__2dkde.html#ga5a942e00c033a0125cbd6991be062e08" title="evaluates the Kernel Density Estimator (KDE) at a given position">jkqtpstatEvaluateKernelSum2D()</a>, bt by reordering the loops it is significatyl faster (~20%)</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">InputItX</td><td>standard iterator type of <em>firstX</em> and <em>lastX</em>. </td></tr>
+    <tr><td class="paramname">InputItY</td><td>standard iterator type of <em>firstY</em> and <em>lastY</em>. </td></tr>
+    <tr><td class="paramname">FF</td><td>functor </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>where to evaluate the kernel sum, x-coordinate </td></tr>
+    <tr><td class="paramname">y</td><td>where to evaluate the kernel sum, y-coordinate </td></tr>
+    <tr><td class="paramname">firstX</td><td>iterator pointing to the first x-position item in the dataset to use <picture><source srcset="form_52_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_1 $" src="form_52.png" width="21" height="16"/></picture> </td></tr>
+    <tr><td class="paramname">lastX</td><td>iterator pointing behind the last x-position item in the dataset to use <picture><source srcset="form_53_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ X_N $" src="form_53.png" width="26" height="16"/></picture> </td></tr>
+    <tr><td class="paramname">firstY</td><td>iterator pointing to the first y-position item in the dataset to use <picture><source srcset="form_100_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ Y_1 $" src="form_100.png" width="16" height="16"/></picture> </td></tr>
+    <tr><td class="paramname">lastY</td><td>iterator pointing behind the last y-position item in the dataset to use <picture><source srcset="form_105_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ Y_N $" src="form_105.png" width="23" height="16"/></picture> </td></tr>
+    <tr><td class="paramname">kernel</td><td>the kernel function to use (e.g. <a class="el" href="group__jkqtptools__math__statistics__1dkde__kernels.html#gadc261fe2e23128426ab9903e26a02885" title="a 1D Gaussian kernel function, e.g. for Kernel Density Estimation">jkqtpstatKernel1DGaussian()</a> ) </td></tr>
+    <tr><td class="paramname">bandwidthX</td><td>x-bandwidth used for the KDE </td></tr>
+    <tr><td class="paramname">bandwidthY</td><td>y-bandwidth used for the KDE </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.3-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Mar 18 2024 10:34:26 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Mar 18 2024 11:12:45 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

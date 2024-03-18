@@ -1,13 +1,13 @@
 var group__jkqtptools__math__statistics__1dkde__kernels =
 [
-    [ "jkqtpstatKernel1DCauchy", "group__jkqtptools__math__statistics__1dkde__kernels.html#ga03d3f789a295039152adec63d4c83e4d", null ],
-    [ "jkqtpstatKernel1DCosine", "group__jkqtptools__math__statistics__1dkde__kernels.html#ga60c0e3e662f2ff8fbb3c19cbd5e11822", null ],
-    [ "jkqtpstatKernel1DEpanechnikov", "group__jkqtptools__math__statistics__1dkde__kernels.html#gab0e886736f781c7eaa7c5da7b6a3c436", null ],
-    [ "jkqtpstatKernel1DGaussian", "group__jkqtptools__math__statistics__1dkde__kernels.html#gacddebeb94f8449c98b0ed98160e65a24", null ],
-    [ "jkqtpstatKernel1DPicard", "group__jkqtptools__math__statistics__1dkde__kernels.html#ga7ccd70b8fe4de2e3ad08a3b0317a298d", null ],
-    [ "jkqtpstatKernel1DQuartic", "group__jkqtptools__math__statistics__1dkde__kernels.html#ga0514adae64bbc0a43ccac935321eac03", null ],
-    [ "jkqtpstatKernel1DTriangle", "group__jkqtptools__math__statistics__1dkde__kernels.html#ga09f4bb356b6697d07daa3111a8d75781", null ],
-    [ "jkqtpstatKernel1DTricube", "group__jkqtptools__math__statistics__1dkde__kernels.html#gab6271d0c0ec5dcc275e7dea1d066c1cd", null ],
-    [ "jkqtpstatKernel1DTriweight", "group__jkqtptools__math__statistics__1dkde__kernels.html#gadf981de7935c5f3aaf0cb87e88026d57", null ],
-    [ "jkqtpstatKernel1DUniform", "group__jkqtptools__math__statistics__1dkde__kernels.html#gaf3fd869fbc97104dc1086932090f782d", null ]
+    [ "jkqtpstatKernel1DCauchy", "group__jkqtptools__math__statistics__1dkde__kernels.html#gace17a03ec91b13f75dc324d3271b5966", null ],
+    [ "jkqtpstatKernel1DCosine", "group__jkqtptools__math__statistics__1dkde__kernels.html#ga389ecf091eea9940375ed53b2db611b0", null ],
+    [ "jkqtpstatKernel1DEpanechnikov", "group__jkqtptools__math__statistics__1dkde__kernels.html#gacf48fe6890853c4592841ae85962d8ed", null ],
+    [ "jkqtpstatKernel1DGaussian", "group__jkqtptools__math__statistics__1dkde__kernels.html#gadc261fe2e23128426ab9903e26a02885", null ],
+    [ "jkqtpstatKernel1DPicard", "group__jkqtptools__math__statistics__1dkde__kernels.html#gaee8824008ed849cbb0c723966bfd2feb", null ],
+    [ "jkqtpstatKernel1DQuartic", "group__jkqtptools__math__statistics__1dkde__kernels.html#ga4b0be7c33c1924e20133c9cc991b92d4", null ],
+    [ "jkqtpstatKernel1DTriangle", "group__jkqtptools__math__statistics__1dkde__kernels.html#gae1dfc12ace64c004d81f857ac889216d", null ],
+    [ "jkqtpstatKernel1DTricube", "group__jkqtptools__math__statistics__1dkde__kernels.html#ga814d88ca8155d903a6e667554d8ffc8e", null ],
+    [ "jkqtpstatKernel1DTriweight", "group__jkqtptools__math__statistics__1dkde__kernels.html#gacd7acec82b29460d5c42b0f37d375399", null ],
+    [ "jkqtpstatKernel1DUniform", "group__jkqtptools__math__statistics__1dkde__kernels.html#ga15b11fe1d910aae2516eb2ee291e337d", null ]
 ];
