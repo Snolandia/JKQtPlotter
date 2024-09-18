@@ -163,7 +163,7 @@ How it works</h1>
 <div class="fragment"><div class="line">calculateMandelSet(ui-&gt;plot-&gt;getXMin(), ui-&gt;plot-&gt;getXMax(), ui-&gt;plot-&gt;getYMin(), ui-&gt;plot-&gt;getYMax(), 300, 200, ui-&gt;spinMaxIterations-&gt;value());</div>
 </div><!-- fragment --><p>When calculation finished, the contents of <code>mandelbrot_col</code> is copied to <code>mandelbrot_col_display</code>:</p>
 <div class="fragment"><div class="line">ui-&gt;plot-&gt;getDatastore()-&gt;copyColumnData(mandelbrot_col_display, mandelbrot_col);</div>
-</div><!-- fragment --><p>In order to implement the zoom functionality, the signal <code><a class="el" href="class_j_k_q_t_plotter.html#adad7efc7e158614ae6a3bf28485c3082" title="signal: emitted whenever the user selects a new x-y zoom range (by mouse)">JKQTPlotter::zoomChangedLocally</a></code> is connected to a function, which recalculates the new image for the new zoom-range:</p>
+</div><!-- fragment --><p>In order to implement the zoom functionality, the signal <code><a class="el" href="class_j_k_q_t_plotter.html#adad7efc7e158614ae6a3bf28485c3082" title="signal: emitted whenever the user selects a new x-y zoom range (in the major axes,...">JKQTPlotter::zoomChangedLocally</a></code> is connected to a function, which recalculates the new image for the new zoom-range:</p>
 <div class="fragment"><div class="line"><span class="keywordtype">void</span> MandelbrotMainWindow::plotZoomChangedLocally(<span class="keywordtype">double</span> newxmin, <span class="keywordtype">double</span> newxmax, <span class="keywordtype">double</span> newymin, <span class="keywordtype">double</span> newymax, <a class="code hl_class" href="class_j_k_q_t_plotter.html">JKQTPlotter</a> *<span class="comment">/*sender*/</span>)</div>
 <div class="line">{</div>
 <div class="line">    calculateMandelSet(newxmin, newxmax, newymin, newymax, ui-&gt;plot-&gt;getXAxis()-&gt;getParentPlotWidth(), ui-&gt;plot-&gt;getYAxis()-&gt;getParentPlotWidth(), ui-&gt;spinMaxIterations-&gt;value());</div>
@@ -285,7 +285,7 @@ How it works</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="example_tutorial_projects.html">Example &amp; Tutorial Projects</a></li>
-    <li class="footer">Generated on Thu Mar 28 2024 21:04:17 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Sep 18 2024 12:40:38 for JKQTPlotter by <a href="https://www.doxygen.org/index.html">doxygen</a> 1.9.8 </li>
   </ul>
 </div>
 </body>

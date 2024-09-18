@@ -54,6 +54,7 @@ var searchData=
   ['axisminwidth_51',['axisMinWidth',['../class_j_k_q_t_p_coordinate_axis.html#ae2c6fbba556dd8db2a31d60c68396e6b',1,'JKQTPCoordinateAxis']]],
   ['axisoffset_52',['axisoffset',['../class_j_k_q_t_p_vertical_independent_axis.html#ab0a041a568a0bcff418ca022420d27d8',1,'JKQTPVerticalIndependentAxis::axisOffset'],['../class_j_k_q_t_p_horizontal_independent_axis.html#a9d35132164d64749f6ba4cc94d55e2be',1,'JKQTPHorizontalIndependentAxis::axisOffset']]],
   ['axisprefix_53',['axisPrefix',['../class_j_k_q_t_p_coordinate_axis.html#a83bea5a0303ed04eb75f4bd2aba63a02',1,'JKQTPCoordinateAxis']]],
-  ['axisstyle_54',['axisStyle',['../class_j_k_q_t_p_coordinate_axis.html#a4d1a3cc9e782f882253a94775dba8005',1,'JKQTPCoordinateAxis']]],
-  ['axiswidth_55',['axiswidth',['../class_j_k_q_t_p_vertical_independent_axis.html#a32c2c4ff42864f6a041fc8f7264beb2b',1,'JKQTPVerticalIndependentAxis::axisWidth'],['../class_j_k_q_t_p_horizontal_independent_axis.html#af12a23c79218ed8872526c291d638efc',1,'JKQTPHorizontalIndependentAxis::axisWidth']]]
+  ['axisrangefixed_54',['axisRangeFixed',['../class_j_k_q_t_p_coordinate_axis.html#a000e464337d4b1733fa24f363c9e5a8f',1,'JKQTPCoordinateAxis']]],
+  ['axisstyle_55',['axisStyle',['../class_j_k_q_t_p_coordinate_axis.html#a4d1a3cc9e782f882253a94775dba8005',1,'JKQTPCoordinateAxis']]],
+  ['axiswidth_56',['axiswidth',['../class_j_k_q_t_p_vertical_independent_axis.html#a32c2c4ff42864f6a041fc8f7264beb2b',1,'JKQTPVerticalIndependentAxis::axisWidth'],['../class_j_k_q_t_p_horizontal_independent_axis.html#af12a23c79218ed8872526c291d638efc',1,'JKQTPHorizontalIndependentAxis::axisWidth']]]
 ];

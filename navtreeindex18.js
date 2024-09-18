@@ -1,5 +1,11 @@
 var NAVTREEINDEX18 =
 {
+"class_j_k_q_t_p_graph_line_and_fill_style_mixin.html#a433b7a1985eaf1853ba7a4cb156c8b1f":[10,4,1,1,2,1,4,2],
+"class_j_k_q_t_p_graph_line_and_fill_style_mixin.html#a43e2f6c87e4e61b4a349b795102c6982":[10,4,1,1,2,1,4,4],
+"class_j_k_q_t_p_graph_line_and_fill_style_mixin.html#a475a7afa1c29d1197aaabe3b0385d36f":[10,4,1,1,2,1,4,9],
+"class_j_k_q_t_p_graph_line_and_fill_style_mixin.html#a4d9e1a75bd5761987eb6bb3f2de6f370":[10,4,1,1,2,1,4,5],
+"class_j_k_q_t_p_graph_line_and_fill_style_mixin.html#a7c9b03df707be29c331585b668e45e95":[10,4,1,1,2,1,4,7],
+"class_j_k_q_t_p_graph_line_and_fill_style_mixin.html#a7f4c3b86f35bab8ac13b946037badff2":[10,4,1,1,2,1,4,3],
 "class_j_k_q_t_p_graph_line_and_fill_style_mixin.html#a9d19bd3d4a5f191340d35a9df0060033":[10,4,1,1,2,1,4,8],
 "class_j_k_q_t_p_graph_line_and_fill_style_mixin.html#aa2450659e601f00fbcf6c648ee108fd7":[10,4,1,1,2,1,4,6],
 "class_j_k_q_t_p_graph_line_and_fill_style_mixin.html#ab3c453e76708feb2dc112721578b8b39":[10,4,1,1,2,1,4,10],
@@ -243,11 +249,5 @@ var NAVTREEINDEX18 =
 "class_j_k_q_t_p_graph_violinplot_style_mixin.html#ac63601dd6a4df4c2efbddd115338aa8b":[10,4,1,1,2,2,2,17],
 "class_j_k_q_t_p_graph_violinplot_style_mixin.html#ac7ce5b1078e231f9d430fee2498ef9e2":[10,4,1,1,2,2,2,96],
 "class_j_k_q_t_p_graph_violinplot_style_mixin.html#ac8fedadcecaa4e5dcce845320b5f191d":[10,4,1,1,2,2,2,69],
-"class_j_k_q_t_p_graph_violinplot_style_mixin.html#ac9b733779cf2a7a51ee69a0d027616b1":[10,4,1,1,2,2,2,8],
-"class_j_k_q_t_p_graph_violinplot_style_mixin.html#ace1175ebe710bd6c1c3cbfd1e29a38f0":[10,4,1,1,2,2,2,101],
-"class_j_k_q_t_p_graph_violinplot_style_mixin.html#ace72b29d170c053d76bfd018c4564cb7":[10,4,1,1,2,2,2,70],
-"class_j_k_q_t_p_graph_violinplot_style_mixin.html#acff137b8528927eaa62b3a3a1fc06c67":[10,4,1,1,2,2,2,30],
-"class_j_k_q_t_p_graph_violinplot_style_mixin.html#ad0bfcfd063d666e06fc0f16262726c62":[10,4,1,1,2,2,2,103],
-"class_j_k_q_t_p_graph_violinplot_style_mixin.html#ad1e2fcc6b867c196231839139d0aebe8":[10,4,1,1,2,2,2,77],
-"class_j_k_q_t_p_graph_violinplot_style_mixin.html#ad3a4f92318e926b285be94dabc9b90a8":[10,4,1,1,2,2,2,35]
+"class_j_k_q_t_p_graph_violinplot_style_mixin.html#ac9b733779cf2a7a51ee69a0d027616b1":[10,4,1,1,2,2,2,8]
 };

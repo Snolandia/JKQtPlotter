@@ -1,5 +1,11 @@
 var NAVTREEINDEX23 =
 {
+"class_j_k_q_t_p_single_column_graph.html#a380fd5a845807aa41a8c092cf53c7386":[10,4,1,1,0,5,6],
+"class_j_k_q_t_p_single_column_graph.html#a4c075b0a46dd9d7fd568bbabae8821dd":[10,4,1,1,0,5,18],
+"class_j_k_q_t_p_single_column_graph.html#a58fca99c608e247227d9ef6bfa9137c6":[10,4,1,1,0,5,7],
+"class_j_k_q_t_p_single_column_graph.html#a657b2dae9f4dbfb2c01ab22c4fc690df":[10,4,1,1,0,5,2],
+"class_j_k_q_t_p_single_column_graph.html#a6db5959dfcf7782c71c9aff103f0bc7d":[10,4,1,1,0,5,9],
+"class_j_k_q_t_p_single_column_graph.html#a6f25a302cfc89fd87036490ec66007a3":[10,4,1,1,0,5,8],
 "class_j_k_q_t_p_single_column_graph.html#a78e9cdd9a48d3e18312c886d0d1ef0bb":[10,4,1,1,0,5,5],
 "class_j_k_q_t_p_single_column_graph.html#a7b62a5cedc32ad15abad51cdda426453":[10,4,1,1,0,5,1],
 "class_j_k_q_t_p_single_column_graph.html#a7b62a5cedc32ad15abad51cdda426453a46eec127f4a7d933d976b7a3637ffa6b":[10,4,1,1,0,5,1,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX23 =
 "class_j_k_q_t_p_violinplot_element_base.html#ae3d7b80ce3144744a31f31b9b4fcdd2d":[10,4,1,1,1,11,6,0],
 "class_j_k_q_t_p_violinplot_element_base.html#af5796dcc28a812365ef247c0935c1618":[10,4,1,1,1,11,6,21],
 "class_j_k_q_t_p_violinplot_element_base.html#afa7a1f11e14e2434a2af53a86d5657f2":[10,4,1,1,1,11,6,9],
-"class_j_k_q_t_p_violinplot_element_base.html#afab1481edab165be3dae5b5c11ab67fe":[10,4,1,1,1,11,6,24],
-"class_j_k_q_t_p_violinplot_horizontal_element.html":[10,4,1,1,1,11,7],
-"class_j_k_q_t_p_violinplot_horizontal_element.html#a466d9c7ac8e058f67d06eb1ec78c05ec":[10,4,1,1,1,11,7,4],
-"class_j_k_q_t_p_violinplot_horizontal_element.html#a7bb3de667d5fee5c64ab8d0bc27b38fc":[10,4,1,1,1,11,7,2],
-"class_j_k_q_t_p_violinplot_horizontal_element.html#a7c867518940cf9cd1eb1414bdd6f460d":[10,4,1,1,1,11,7,0],
-"class_j_k_q_t_p_violinplot_horizontal_element.html#a84cdd1b69d0356f61ecaf859a68ef8a7":[10,4,1,1,1,11,7,3],
-"class_j_k_q_t_p_violinplot_horizontal_element.html#a888ac70956e747ea1a60ba7f924d0f64":[10,4,1,1,1,11,7,1]
+"class_j_k_q_t_p_violinplot_element_base.html#afab1481edab165be3dae5b5c11ab67fe":[10,4,1,1,1,11,6,24]
 };

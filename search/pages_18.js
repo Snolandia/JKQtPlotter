@@ -12,11 +12,12 @@ var searchData=
   ['with_20error_20indicators_9',['Example (JKQTPlotter): Filled Graphs with Error Indicators',['../_j_k_q_t_plotter_filled_graphs_error_bars.html',1,'exampleTutorialProjects']]],
   ['with_20functor_20fill_20mode_10',['Example (JKQTPlotter): Barchart With Functor Fill-Mode',['../_j_k_q_t_plotter_barcharts_functor_filling.html',1,'exampleTutorialProjects']]],
   ['with_20jkqtpdatastore_11',['with jkqtpdatastore',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics_grouped_stat.html',1,'Tutorial (JKQTPDatastore): 1-Dimensional Group Statistics with JKQTPDatastore'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics.html',1,'Tutorial (JKQTPDatastore): Advanced 1-Dimensional Statistics with JKQTPDatastore'],['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_statistics2_d.html',1,'Tutorial (JKQTPDatastore): Advanced 2-Dimensional Statistics with JKQTPDatastore']]],
-  ['with_20live_20data_20speed_20test_12',['Example (JKQTPlotter): Simple line-graph with live-data (speed test)',['../_j_k_q_t_plotter_speed_test.html',1,'exampleTutorialProjects']]],
-  ['with_20logarithmic_20y_20axis_13',['Example (JKQTPlotter): Line Graph with Logarithmic y-axis',['../_j_k_q_t_plotter_log_axes.html',1,'exampleTutorialProjects']]],
-  ['with_20modifier_20datat_14',['Example (JKQTPlotter): Simple math image plot with modifier datat',['../_j_k_q_t_plotter_image_plot_modifier.html',1,'exampleTutorialProjects']]],
-  ['with_20parametrized_20symbols_20colors_15',['Example (JKQTPlotter): Scatter Graph with Parametrized Symbols/Colors',['../_j_k_q_t_plotter_param_scatter.html',1,'exampleTutorialProjects']]],
-  ['with_20the_20statistics_20library_16',['Tutorial (JKQTPDatastore): Regression Analysis (with the Statistics Library)',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html',1,'exampleTutorialProjects']]],
-  ['with_20two_20color_20fill_20mode_17',['Example (JKQTPlotter): Barchart With Two-Color Fill-Mode',['../_j_k_q_t_plotter_barcharts_two_color_filling.html',1,'exampleTutorialProjects']]],
-  ['without_20use_20of_20central_20jkqtdatastore_18',['Example (JKQTPlotter): Simple math image plot without use of central JKQTdatastore',['../_j_k_q_t_plotter_image_plot_no_datastore.html',1,'exampleTutorialProjects']]]
+  ['with_20jkqtplotter_12',['Example (JKQTPlotter): Using a QScrollbar together with JKQtPlotter',['../_j_k_q_t_plotter_u_i_scrollbar.html',1,'exampleTutorialProjects']]],
+  ['with_20live_20data_20speed_20test_13',['Example (JKQTPlotter): Simple line-graph with live-data (speed test)',['../_j_k_q_t_plotter_speed_test.html',1,'exampleTutorialProjects']]],
+  ['with_20logarithmic_20y_20axis_14',['Example (JKQTPlotter): Line Graph with Logarithmic y-axis',['../_j_k_q_t_plotter_log_axes.html',1,'exampleTutorialProjects']]],
+  ['with_20modifier_20datat_15',['Example (JKQTPlotter): Simple math image plot with modifier datat',['../_j_k_q_t_plotter_image_plot_modifier.html',1,'exampleTutorialProjects']]],
+  ['with_20parametrized_20symbols_20colors_16',['Example (JKQTPlotter): Scatter Graph with Parametrized Symbols/Colors',['../_j_k_q_t_plotter_param_scatter.html',1,'exampleTutorialProjects']]],
+  ['with_20the_20statistics_20library_17',['Tutorial (JKQTPDatastore): Regression Analysis (with the Statistics Library)',['../_j_k_q_t_plotter_basic_j_k_q_t_p_datastore_regression.html',1,'exampleTutorialProjects']]],
+  ['with_20two_20color_20fill_20mode_18',['Example (JKQTPlotter): Barchart With Two-Color Fill-Mode',['../_j_k_q_t_plotter_barcharts_two_color_filling.html',1,'exampleTutorialProjects']]],
+  ['without_20use_20of_20central_20jkqtdatastore_19',['Example (JKQTPlotter): Simple math image plot without use of central JKQTdatastore',['../_j_k_q_t_plotter_image_plot_no_datastore.html',1,'exampleTutorialProjects']]]
 ];

@@ -58,11 +58,12 @@ var searchData=
   ['example_20jkqtplotter_20_3a_20simple_20stacked_20barchart_55',['Example (JKQTPlotter): Simple stacked barchart',['../_j_k_q_t_plotter_stacked_bar_chart.html',1,'exampleTutorialProjects']]],
   ['example_20jkqtplotter_20_3a_20step_20line_20plots_20in_20different_20styles_56',['Example (JKQTPlotter): Step Line Plots in Different Styles',['../_j_k_q_t_plotter_special_step_line_plot.html',1,'exampleTutorialProjects']]],
   ['example_20jkqtplotter_20_3a_20styling_20different_20aspects_20of_20boxplots_57',['Example (JKQTPlotter): Styling different aspects of boxplots',['../_j_k_q_t_plotter_boxplot_styling.html',1,'exampleTutorialProjects']]],
-  ['example_20jkqtplotter_20_3a_20vector_20field_20plot_20example_58',['example jkqtplotter : vector field plot example',['../_j_k_q_t_p_parametrized_vector_field_graph_example.html',1,'Example (JKQTPlotter): Vector Field Plot Example'],['../_j_k_q_t_plotter_vector_field_example.html',1,'Example (JKQTPlotter): Vector Field Plot Example']]],
-  ['example_20jkqtplotter_20_3a_20very_20simple_20line_20graph_59',['Example (JKQTPlotter): Very simple line-graph',['../_j_k_q_t_plotter_simple_test.html',1,'exampleTutorialProjects']]],
-  ['example_20jkqtplotter_20_3a_20very_20simple_20scatter_20graph_60',['Example (JKQTPlotter): Very simple scatter-graph',['../_j_k_q_t_plotterscatter.html',1,'exampleTutorialProjects']]],
-  ['example_20jkqtplotter_20_3a_20violin_20plots_61',['Example (JKQTPlotter): Violin Plots',['../_j_k_q_t_plotter_violinplot_graphs.html',1,'exampleTutorialProjects']]],
-  ['example_20jkqtplotter_20_3a_20wiggle_20plots_62',['Example (JKQTPlotter): Wiggle Plots',['../_j_k_q_t_plotter_wiggle_plots.html',1,'exampleTutorialProjects']]],
-  ['example_20tutorial_20projects_63',['Example &amp; Tutorial Projects',['../example_tutorial_projects.html',1,'']]],
-  ['explorer_64',['Example (JKQTPlotter): Mandelbrot Set Explorer',['../_j_k_q_t_plotter_mandelbrot.html',1,'exampleTutorialProjects']]]
+  ['example_20jkqtplotter_20_3a_20using_20a_20qscrollbar_20together_20with_20jkqtplotter_58',['Example (JKQTPlotter): Using a QScrollbar together with JKQtPlotter',['../_j_k_q_t_plotter_u_i_scrollbar.html',1,'exampleTutorialProjects']]],
+  ['example_20jkqtplotter_20_3a_20vector_20field_20plot_20example_59',['example jkqtplotter : vector field plot example',['../_j_k_q_t_p_parametrized_vector_field_graph_example.html',1,'Example (JKQTPlotter): Vector Field Plot Example'],['../_j_k_q_t_plotter_vector_field_example.html',1,'Example (JKQTPlotter): Vector Field Plot Example']]],
+  ['example_20jkqtplotter_20_3a_20very_20simple_20line_20graph_60',['Example (JKQTPlotter): Very simple line-graph',['../_j_k_q_t_plotter_simple_test.html',1,'exampleTutorialProjects']]],
+  ['example_20jkqtplotter_20_3a_20very_20simple_20scatter_20graph_61',['Example (JKQTPlotter): Very simple scatter-graph',['../_j_k_q_t_plotterscatter.html',1,'exampleTutorialProjects']]],
+  ['example_20jkqtplotter_20_3a_20violin_20plots_62',['Example (JKQTPlotter): Violin Plots',['../_j_k_q_t_plotter_violinplot_graphs.html',1,'exampleTutorialProjects']]],
+  ['example_20jkqtplotter_20_3a_20wiggle_20plots_63',['Example (JKQTPlotter): Wiggle Plots',['../_j_k_q_t_plotter_wiggle_plots.html',1,'exampleTutorialProjects']]],
+  ['example_20tutorial_20projects_64',['Example &amp; Tutorial Projects',['../example_tutorial_projects.html',1,'']]],
+  ['explorer_65',['Example (JKQTPlotter): Mandelbrot Set Explorer',['../_j_k_q_t_plotter_mandelbrot.html',1,'exampleTutorialProjects']]]
 ];

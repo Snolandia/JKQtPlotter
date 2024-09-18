@@ -1,5 +1,11 @@
 var NAVTREEINDEX30 =
 {
+"group__jkqtpplottersupprt.html#ga5d43b30f0132d08b8793ceb2533e315f":[10,4,1,5,27],
+"group__jkqtpplottersupprt.html#ga622658259a7c0d17b60e8c070a122eac":[10,4,1,5,52],
+"group__jkqtpplottersupprt.html#ga6305332f22055fcefe3875b98a16b828":[10,4,1,5,23],
+"group__jkqtpplottersupprt.html#ga6562bedae430e91546399ae1a70cb860":[10,4,1,5,31],
+"group__jkqtpplottersupprt.html#ga6617afa61313feda8c490932016ff58f":[10,4,1,5,29],
+"group__jkqtpplottersupprt.html#ga6cb5c7e72efa604416b2ac1ac3fc55cd":[10,4,1,5,24],
 "group__jkqtpplottersupprt.html#ga6debbfe141c8d3b2f713abd7e0244353":[10,4,1,5,60],
 "group__jkqtpplottersupprt.html#ga7aa3b51b32b5602ee44763590bc22bdd":[10,4,1,5,16],
 "group__jkqtpplottersupprt.html#ga7cc1b67e0aa855571646587b4f0a6488":[10,4,1,5,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX30 =
 "group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba2c9c44ce7a413752c04938faaae631b5":[10,1,4,4,56],
 "group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba2d4a086f4ec377dd8799390d3b9a3996":[10,1,4,4,25],
 "group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba31d8fce3cd1abf053f36efee58e62afe":[10,1,4,4,39],
-"group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba342fc00b276de53a117730f2367d3e12":[10,1,4,4,49],
-"group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba39c9c718575270f4182e9d0e4998d247":[10,1,4,4,42],
-"group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba487afa1db8b99cce4d7fc632676514ee":[10,1,4,4,47],
-"group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba4fc710eae93b754dec2f5d78c27539af":[10,1,4,4,27],
-"group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba514f2699c06d2219da590bf1a5da2bb3":[10,1,4,4,59],
-"group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba5593d97ba2ffbc4abd2ffb24270cf759":[10,1,4,4,46],
-"group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba5ac2ee3d7e30a15354a5833fca4fcfbe":[10,1,4,4,67]
+"group__jkqtptools__drawing.html#ggacdaaac6baeadbfd3677d4d53ea594b5ba342fc00b276de53a117730f2367d3e12":[10,1,4,4,49]
 };

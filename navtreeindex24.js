@@ -1,5 +1,11 @@
 var NAVTREEINDEX24 =
 {
+"class_j_k_q_t_p_violinplot_horizontal_element.html":[10,4,1,1,1,11,7],
+"class_j_k_q_t_p_violinplot_horizontal_element.html#a466d9c7ac8e058f67d06eb1ec78c05ec":[10,4,1,1,1,11,7,4],
+"class_j_k_q_t_p_violinplot_horizontal_element.html#a7bb3de667d5fee5c64ab8d0bc27b38fc":[10,4,1,1,1,11,7,2],
+"class_j_k_q_t_p_violinplot_horizontal_element.html#a7c867518940cf9cd1eb1414bdd6f460d":[10,4,1,1,1,11,7,0],
+"class_j_k_q_t_p_violinplot_horizontal_element.html#a84cdd1b69d0356f61ecaf859a68ef8a7":[10,4,1,1,1,11,7,3],
+"class_j_k_q_t_p_violinplot_horizontal_element.html#a888ac70956e747ea1a60ba7f924d0f64":[10,4,1,1,1,11,7,1],
 "class_j_k_q_t_p_violinplot_horizontal_element.html#aa3224248d99da23b2c027a6c3f3b06e4":[10,4,1,1,1,11,7,5],
 "class_j_k_q_t_p_violinplot_vertical_element.html":[10,4,1,1,1,11,8],
 "class_j_k_q_t_p_violinplot_vertical_element.html#a242fac05963227f102dd6ba235ae9eb1":[10,4,1,1,1,11,8,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX24 =
 "class_j_k_q_t_p_x_y_labels_generator_mixin.html#a2f6fa142b8e95182b87a331874ee8135":[10,4,1,1,2,2,3,25],
 "class_j_k_q_t_p_x_y_labels_generator_mixin.html#a3bbb50ec5e2c895e15b5efd34320e069":[10,4,1,1,2,2,3,22],
 "class_j_k_q_t_p_x_y_labels_generator_mixin.html#a435a2b4e665797d04127ecfe2e08cb40":[10,4,1,1,2,2,3,46],
-"class_j_k_q_t_p_x_y_labels_generator_mixin.html#a455a0ed82cab986d5fa006a7d4734f0e":[10,4,1,1,2,2,3,2],
-"class_j_k_q_t_p_x_y_labels_generator_mixin.html#a4cbe42223532e3f54d28b6a6c532516c":[10,4,1,1,2,2,3,35],
-"class_j_k_q_t_p_x_y_labels_generator_mixin.html#a5364514cb4a8bad7cd971d0cd921e385":[10,4,1,1,2,2,3,5],
-"class_j_k_q_t_p_x_y_labels_generator_mixin.html#a548b7bdf2d12ef832d4c9844adeb9aca":[10,4,1,1,2,2,3,40],
-"class_j_k_q_t_p_x_y_labels_generator_mixin.html#a558772d712a4adec8cb2a547901d332e":[10,4,1,1,2,2,3,0],
-"class_j_k_q_t_p_x_y_labels_generator_mixin.html#a56134eaf580496068157bb25ea4239d9":[10,4,1,1,2,2,3,4],
-"class_j_k_q_t_p_x_y_labels_generator_mixin.html#a561cf61796ab23a738920805bc4d8c10":[10,4,1,1,2,2,3,29]
+"class_j_k_q_t_p_x_y_labels_generator_mixin.html#a455a0ed82cab986d5fa006a7d4734f0e":[10,4,1,1,2,2,3,2]
 };
