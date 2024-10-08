@@ -250,7 +250,6 @@ var group__jkqtpbaseplotter__elements =
       [ "setTickMode", "class_j_k_q_t_p_coordinate_axis.html#a9c07aab892dfb8c3eaa5c2e450616fd7", null ],
       [ "setTickOutsideLength", "class_j_k_q_t_p_coordinate_axis.html#a63641d277c1dbb53365f83b83f627d99", null ],
       [ "setTickPrintfFormat", "class_j_k_q_t_p_coordinate_axis.html#ab3bb9e3ec8c979370746f5249e841991", null ],
-      [ "setTickSpacing", "class_j_k_q_t_p_coordinate_axis.html#a8f364b9c66b6fdc4beec35300533d838", null ],
       [ "setTickTimeFormat", "class_j_k_q_t_p_coordinate_axis.html#aee0cde7d09e9adc168b9000b03220f08", null ],
       [ "setTickUnit", "class_j_k_q_t_p_coordinate_axis.html#a1c0607d0ee5f409873261a26ed6cfcdc", null ],
       [ "setTickUnitFactor", "class_j_k_q_t_p_coordinate_axis.html#a681e6f9db8d22b19297a18d741253024", null ],
