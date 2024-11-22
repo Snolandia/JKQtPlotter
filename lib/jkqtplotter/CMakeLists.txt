@@ -68,13 +68,7 @@ target_sources(${lib_name} PUBLIC FILE_SET HEADERS TYPE HEADERS
 
 add_subdirectory(graphs)
 add_subdirectory(gui)
-
-# add ressource
-qt_add_resources(QRCSOURCES
-	resources/jkqtpbaseplotter.qrc
-	resources/jkqtpstyles.qrc
-)
-target_sources(${lib_name} PRIVATE ${QRCSOURCES})
+add_subdirectory(resources)
 
 # add version info
 target_include_directories(${lib_name} PRIVATE ${JKQTPLOTTER_VERSION_FILE_DIR})
