@@ -1344,7 +1344,9 @@ QPixmap JKQTMathText::drawIntoPixmap(bool drawBoxes, QColor backgroundColor, int
         painter.setRenderHint(QPainter::Antialiasing);
         painter.setRenderHint(QPainter::TextAntialiasing);
         painter.setRenderHint(QPainter::SmoothPixmapTransform);
-
+#if (QT_VERSION>=QT_VERSION_CHECK(6, 1, 0))
+        painter.setRenderHint(QPainter::VerticalSubpixelPositioning);
+#endif
         const JKQTMathTextNodeSize size=getSizeDetail(painter);
         const QSize pixsize=size.getIntSize()+QSize(2*sizeincrease,2*sizeincrease);
         painter.end();
@@ -1359,7 +1361,9 @@ QPixmap JKQTMathText::drawIntoPixmap(bool drawBoxes, QColor backgroundColor, int
         painter.setRenderHint(QPainter::Antialiasing);
         painter.setRenderHint(QPainter::TextAntialiasing);
         painter.setRenderHint(QPainter::SmoothPixmapTransform);
-
+#if (QT_VERSION>=QT_VERSION_CHECK(6, 1, 0))
+        painter.setRenderHint(QPainter::VerticalSubpixelPositioning);
+#endif
         draw(painter, Qt::AlignVCenter|Qt::AlignHCenter, QRect(QPoint(0,0),pixsize), drawBoxes);
         painter.end();
     }
@@ -1387,6 +1391,9 @@ QImage JKQTMathText::drawIntoImage(bool drawBoxes, QColor backgroundColor, int s
         painter.setRenderHint(QPainter::Antialiasing);
         painter.setRenderHint(QPainter::TextAntialiasing);
         painter.setRenderHint(QPainter::SmoothPixmapTransform);
+#if (QT_VERSION>=QT_VERSION_CHECK(6, 1, 0))
+        painter.setRenderHint(QPainter::VerticalSubpixelPositioning);
+#endif
         const JKQTMathTextNodeSize size=getSizeDetail(painter);
         const QSize pixsize=size.getIntSize()+QSize(2*sizeincrease,2*sizeincrease);
         painter.end();
@@ -1403,7 +1410,9 @@ QImage JKQTMathText::drawIntoImage(bool drawBoxes, QColor backgroundColor, int s
         painter.setRenderHint(QPainter::Antialiasing);
         painter.setRenderHint(QPainter::TextAntialiasing);
         painter.setRenderHint(QPainter::SmoothPixmapTransform);
-
+#if (QT_VERSION>=QT_VERSION_CHECK(6, 1, 0))
+        painter.setRenderHint(QPainter::VerticalSubpixelPositioning);
+#endif
         draw(painter, Qt::AlignVCenter|Qt::AlignHCenter, QRect(QPoint(0,0),pixsize), drawBoxes);
         painter.end();
     }
@@ -1428,7 +1437,9 @@ QPicture JKQTMathText::drawIntoPicture(bool drawBoxes)
         painter.setRenderHint(QPainter::Antialiasing);
         painter.setRenderHint(QPainter::TextAntialiasing);
         painter.setRenderHint(QPainter::SmoothPixmapTransform);
-
+#if (QT_VERSION>=QT_VERSION_CHECK(6, 1, 0))
+        painter.setRenderHint(QPainter::VerticalSubpixelPositioning);
+#endif
         const JKQTMathTextNodeSize size=getSizeDetail(painter);
         painter.end();
 
@@ -1439,7 +1450,9 @@ QPicture JKQTMathText::drawIntoPicture(bool drawBoxes)
         painter.setRenderHint(QPainter::Antialiasing);
         painter.setRenderHint(QPainter::TextAntialiasing);
         painter.setRenderHint(QPainter::SmoothPixmapTransform);
-
+#if (QT_VERSION>=QT_VERSION_CHECK(6, 1, 0))
+        painter.setRenderHint(QPainter::VerticalSubpixelPositioning);
+#endif
         draw(painter, 0, size.baselineHeight, drawBoxes);
         painter.end();
     }
